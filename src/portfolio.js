@@ -20,13 +20,13 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Mayssa Elloumi",
+  title: "Hey y'all, I'm Mayssa",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1WKJ_iCsCoY52wPpmoraDOFJyyhwKg81O/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -126,23 +126,31 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
+      schoolName: "Maharishi International University",
+      logo: require("./assets/images/MIULogo.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      duration: "April 2024 - December 2025",
+      desc: "A curriculum focused on practical and enterprise-ready skills. Key courses include Enterprise Architecture, Software Engineering, Cloud Computing, Algorithms, and Relational Database Management Systems (RDBMS), equipping me with the foundations for scalable, secure, and efficient software systems.",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "École Nationale des Sciences de l'Informatique",
+      logo: require("./assets/images/ENSILogo.jpg"),
+      subHeader: "Master of Science in Daata Science",
+      duration: "May 2021 - September 2022",
+      desc: "Focused on Machine Learning, Deep Learning, Data Modeling & Design, Financial Data Science, and Data Processing. Conducted advanced research in cybersecurity and peer-to-peer energy exchange, culminating in the publication of an IEEE research paper on secure transactions in electric vehicle networks.",
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    },
+    {
+      schoolName: "École Nationale des Sciences de l'Informatique",
+      logo: require("./assets/images/ENSILogo.jpg"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "August 2018 - September 2022",
+      desc: "Built strong foundations in software development, algorithms, and systems programming through rigorous theoretical and practical coursework.",
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -174,29 +182,51 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Engineer (Full Stack)",
+      company: "DECADE",
+      companylogo: require("./assets/images/DEACADELogo.jpg"),
+      date: "September 2023 – April 2024",
+      desc: "JAVA/JEE, SpringBoot, SAP Hybris, JavaScript, ReactJS,  MongoDB, IntelliJ, Git, bucket.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Debugged and enhanced full-stack geolocation services in the store locator feature using Java, Spring Boot (backend), & ReactJs (frontend), integrated with AWS Lambda to improve user experience & increase store traffic",
+        "Implemented RESTful APIs and microservices architecture to support various frontend functionalities",
+        "Developed and tested RESTful APIs with Spring Boot and Postman for e-commerce functionalities, ensuring data accuracy and performance while implementing automated integration tests using JUnit",
+        "Resolved a login issue for newly created fidelity accounts, where users were unable to log in due to a network layer problem. Diagnosed and fixed the issue by debugging the authentication flow, improving account registration success and reducing login errors by 30%"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      role: "Software Developer",
+      company: "RGI Insurance",
+      companylogo: require("./assets/images/RGIInsuranceCropped.PNG"),
       date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Java, Spring Boot, AngularJS, OracleDB, Apache Kafka, JMS, AWS CodeCommit, AWS CodeBuild, AWS CodeDeploy, JUnit, Selenium, Microservices Architecture, Repository Design Pattern, In-memory Caching, CI/CD Pipelines",
+      descBullets: [
+  "Optimized insurance claims processing systems by implementing custom validation logic in Java & Spring Boot.",
+  "Collaborated with cross-functional teams to enhance system scalability during high insurance claim volumes by optimizing OracleDB queries and introducing caching mechanisms in Spring Boot services.",
+  "Integrated Kafka into the claim validation subsystem to enable real-time, scalable processing of submitted insurance claims, decoupling request submission from synchronous backend processing.",
+  "Decomposed legacy monolithic services into modular Spring Boot microservices, enabling independent deployment, improved maintainability, and horizontal scalability.",
+  "Implemented JMS-based messaging for critical fraud detection workflows to ensure guaranteed delivery and transactional integrity.",
+  "Developed and implemented CI/CD pipelines using AWS CodeCommit, CodeBuild, and CodeDeploy for Java and Spring Boot apps, reducing deployment time by 40%.",
+  "Engineered role-based access controls for internal policy and claims platforms using Java, AngularJS, and AWS RDS (OracleDB), improving security compliance.",
+  "Built advanced search functionality for insurance customer records using Java and OracleDB, applying the Repository Design Pattern to ensure clean separation between business and data layers.",
+  "Refactored service controller logic using query optimization and in-memory caching, reducing claim lookup latency and improving customer service responsiveness.",
+  "Wrote automated unit and integration tests using JUnit and Selenium to validate critical application components and ensure release stability.",
+  "Participated in Agile ceremonies and performed cross-functional code reviews to improve team delivery cadence and code quality."
+]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      role: "Research Engineer",
+      company: "University of Ottawa",
+      companylogo: require("./assets/images/UOttawaLogo.jpg"),
       date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Solidity, JavaScript, ReactJS, Node.js, Python, SVM, KNN, Docker, Kubernetes, Smart Contracts, IEEE Research, Game Theory Algorithms",
+      descBullets: [
+  "Conducted research and development of a blockchain-based P2P energy exchange platform using Solidity for smart contract logic, and JavaScript, ReactJS, and Node.js for decentralized application interfaces.",
+  "Developed a game theory algorithm for smart contracts to dynamically optimize pricing strategies in energy trading environments.",
+  "Built and integrated machine learning models (SVM, KNN) using Python for real-time anomaly detection, reducing cybersecurity vulnerabilities by 35%.",
+  "Containerized the solution using Docker and deployed it in distributed environments using Kubernetes to ensure high availability and scalability.",
+  "Authored and presented an IEEE research paper introducing a novel False Data Injection Detection Protocol for secure peer-to-peer energy transactions between Connected Electric Vehicles (CEVs)."
+]
     }
   ]
 };
@@ -239,7 +269,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -252,50 +282,32 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "IEEE Research Paper Published",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Published at a time when blockchain was gaining momentum as a cornerstone of cybersecurity innovation, this IEEE research by Mayssa Elloumi tackled a pressing challenge in smart IoT ecosystems. The paper introduced a novel machine learning–based False Data Injection Detection Protocol for peer-to-peer energy transactions between Connected Electric Vehicles (CEVs), positioning it at the intersection of blockchain, cybersecurity, and Industry 4.0. Its timely contribution addressed key vulnerabilities in decentralized energy systems and set a foundation for secure, scalable IoT infrastructures.",
+      image: require("./assets/images/IEEE.png"),
+      imageAlt: "IEEE Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "Research Paper Link",
+          url: "https://ieeexplore.ieee.org/document/9794999"
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Conference Link",
+          url: "https://ieeexplore.ieee.org/document/10044067"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "AWS Certified Developer Associate",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Developed a comprehensive understanding of application life-cycle management. They demonstrated proficiency in writing applications with AWS service APIs, AWS CLI, and SDKs; using containers; and deploying with a CI/CD pipeline. Badge owners are able to develop, deploy, and debug cloud-based applications that follow AWS best practices", 
+      image: require("./assets/images/AWSAssociateDeveloper.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Certification Link",
+          url: "https://www.credly.com/badges/5cb2f8be-f703-414c-8b3f-0a99cedd2583/linked_in_profile"
         }
       ]
     }
@@ -324,7 +336,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +355,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +368,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -372,8 +384,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+1 641-233-9607",
+  email_address: "mayssaelloumi23@gmail.com"
 };
 
 // Twitter Section
