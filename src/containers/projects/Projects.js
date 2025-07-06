@@ -9,7 +9,8 @@ export default function Projects() {
     import("../../components/githubRepoCard/GithubRepoCard")
   );
   const FailedLoading = () => null;
-  const renderLoader = () => <Loading />;
+  const renderLoader = () => <Loading display={false} />
+;
   const [repo, setrepo] = useState([]);
   // todo: remove useContex because is not supported
   const {isDark} = useContext(StyleContext);

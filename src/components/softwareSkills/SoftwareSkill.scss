@@ -29,3 +29,22 @@
 .software-skill-inline > i:hover ~ p {
   color: $skillsColor;
 }
+
+.software-skill-inline > img {
+  height: 3rem; // match .dev-icons font-size
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 0.3rem; // tweak this to visually align with FA icons
+  filter: grayscale(100%);
+  transition: filter 0.3s;
+}
+
+.software-skill-inline > img:hover {
+  filter: grayscale(0%);
+}
+
+
+.software-skill-inline > img:hover ~ p {
+  color: $skillsColor;
+}
+

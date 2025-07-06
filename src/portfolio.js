@@ -23,7 +23,7 @@ const greeting = {
   username: "Mayssa Elloumi",
   title: "Hey y'all, I'm Mayssa",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Software Engineer 🚀 having an experience of building software solutions with Java Springboot, Python, React and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1WKJ_iCsCoY52wPpmoraDOFJyyhwKg81O/view?usp=sharing", // Set to empty to hide the button
@@ -33,13 +33,9 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/mayssa2026?tab=overview&from=2024-12-01&to=2024-12-31",
+  linkedin: "https://www.linkedin.com/in/mayssa-elloumi/",
+  gmail: "mayssaelloumi23@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,48 +45,28 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "EXPLORE EVERY TECH STACK AVAILABLE IN THE CURRENT MARKET, LEARN AND MASTER THEM",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
-  ],
+  emoji("⚡ Design and implement RESTful APIs and backend services using Java and Spring Boot, integrating with platforms like SAP Hybris."),
+  emoji("⚡ Architect and maintain microservices, leveraging Kafka and JMS for asynchronous messaging and real-time data processing."),
+  emoji("⚡ Work with cloud platforms like AWS to deploy, monitor, and scale backend applications using services like EC2, Lambda, and RDS.")
+],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+    skillName: "springboot",
+    iconSrc: require("./assets/logos/springboot.png")
     },
     {
       skillName: "npm",
@@ -105,16 +81,20 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+        {
+      skillName: "html-5",
+      fontAwesomeClassname: "fab fa-html5"
+    },
+    {
+      skillName: "css3",
+      fontAwesomeClassname: "fab fa-css3-alt"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -129,7 +109,7 @@ const educationInfo = {
       schoolName: "Maharishi International University",
       logo: require("./assets/images/MIULogo.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "April 2024 - December 2025",
+      duration: "Currently Pursuing",
       desc: "A curriculum focused on practical and enterprise-ready skills. Key courses include Enterprise Architecture, Software Engineering, Cloud Computing, Algorithms, and Relational Database Management Systems (RDBMS), equipping me with the foundations for scalable, secure, and efficient software systems.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -140,7 +120,7 @@ const educationInfo = {
       schoolName: "École Nationale des Sciences de l'Informatique",
       logo: require("./assets/images/ENSILogo.jpg"),
       subHeader: "Master of Science in Daata Science",
-      duration: "May 2021 - September 2022",
+      duration: "Graduated September 2022",
       desc: "Focused on Machine Learning, Deep Learning, Data Modeling & Design, Financial Data Science, and Data Processing. Conducted advanced research in cybersecurity and peer-to-peer energy exchange, culminating in the publication of an IEEE research paper on secure transactions in electric vehicle networks.",
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     },
@@ -148,7 +128,7 @@ const educationInfo = {
       schoolName: "École Nationale des Sciences de l'Informatique",
       logo: require("./assets/images/ENSILogo.jpg"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "August 2018 - September 2022",
+      duration: "Graduated September 2022",
       desc: "Built strong foundations in software development, algorithms, and systems programming through rigorous theoretical and practical coursework.",
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
@@ -161,16 +141,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "87%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "93%"
+    },
+    {
+      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      progressPercentage: "60%" //Insert relative proficiency in percentage
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -188,10 +168,10 @@ const workExperiences = {
       date: "September 2023 – April 2024",
       desc: "JAVA/JEE, SpringBoot, SAP Hybris, JavaScript, ReactJS,  MongoDB, IntelliJ, Git, bucket.",
       descBullets: [
-        "Debugged and enhanced full-stack geolocation services in the store locator feature using Java, Spring Boot (backend), & ReactJs (frontend), integrated with AWS Lambda to improve user experience & increase store traffic",
         "Implemented RESTful APIs and microservices architecture to support various frontend functionalities",
         "Developed and tested RESTful APIs with Spring Boot and Postman for e-commerce functionalities, ensuring data accuracy and performance while implementing automated integration tests using JUnit",
-        "Resolved a login issue for newly created fidelity accounts, where users were unable to log in due to a network layer problem. Diagnosed and fixed the issue by debugging the authentication flow, improving account registration success and reducing login errors by 30%"
+        "Resolved a login issue for newly created fidelity accounts, where users were unable to log in due to a network layer problem. Diagnosed and fixed the issue by debugging the authentication flow, improving account registration success and reducing login errors by 30%",
+        "Debugged and enhanced full-stack store locator functionality using Java and Spring Boot, with frontend integration built using ReactJS and AWS Lambda to improve user experience and increase in-store traffic."
       ]
     },
     {
@@ -384,7 +364,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+1 641-233-9607",
+  number: "+1 641-233-9706",
   email_address: "mayssaelloumi23@gmail.com"
 };
 

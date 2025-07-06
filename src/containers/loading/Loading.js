@@ -1,7 +1,9 @@
 import React from "react";
 import "./loading.scss";
 
-export default function Loading() {
+export default function Loading({display}) {
+  if(!display) return null;
+
   return (
     <div className="centerContent">
       <div className="sk-circle">
